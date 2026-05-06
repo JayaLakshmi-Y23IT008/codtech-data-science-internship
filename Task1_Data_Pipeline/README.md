@@ -129,7 +129,7 @@ Task1_Data_Pipeline/
 
 4. Run the notebook:
 
-  jupyter notebook notebook/data_pipeline.ipynb
+   jupyter notebook notebook/data_pipeline.ipynb
 
 
 5. Execute all cells to generate outputs.
