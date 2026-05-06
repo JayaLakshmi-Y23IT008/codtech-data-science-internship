@@ -1,74 +1,84 @@
 # 📊 Task 1: Data Pipeline Development
 
 ## 🚀 Overview
-This project demonstrates the development of an automated data preprocessing pipeline for customer churn data. The pipeline transforms raw, unstructured data into a clean and machine learning-ready format using Python and Scikit-learn.
+This project focuses on building an automated data preprocessing pipeline for customer churn analysis.  
+The pipeline transforms raw, inconsistent data into a structured format suitable for machine learning.
 
 ---
 
 ## 🎯 Objective
-To design a reusable data pipeline that:
+To design a reusable pipeline that:
 - Cleans raw data  
 - Handles missing values  
-- Encodes categorical variables  
+- Encodes categorical features  
 - Scales numerical features  
-- Automates preprocessing steps  
+- Automates preprocessing  
 
 ---
 
-## 🧠 Problem Statement
-Real-world datasets are often incomplete, inconsistent, and not directly suitable for machine learning models.  
-This project addresses this challenge by building a structured pipeline that standardizes and automates data preparation.
+## 🧠 Why This Project?
+In real-world scenarios, data is often messy and cannot be directly used for machine learning models.  
+This project solves that problem by creating a structured and automated preprocessing workflow.
 
 ---
 
 ## 🔄 Workflow
 
-Raw Data → Data Cleaning → Feature Transformation → Pipeline → Processed Data
+
+Raw Data
+↓
+Data Cleaning
+↓
+Feature Transformation
+↓
+Pipeline Creation
+↓
+Processed Data
 
 
 ---
 
-## ⚙️ Implementation
+## ⚙️ Implementation Steps
 
-### 🔹 Data Loading
+### 🔹 1. Data Loading
 - Loaded dataset using Pandas  
-- Inspected structure using `.head()`, `.info()`  
+- Inspected structure and data types  
 
 ---
 
-### 🔹 Data Cleaning
-- Removed unnecessary columns (`customerID`)  
+### 🔹 2. Data Cleaning
+- Removed unnecessary column (`customerID`)  
 - Converted `TotalCharges` to numeric  
 - Handled missing values using median  
 
 ---
 
-### 🔹 Feature Engineering
+### 🔹 3. Feature Engineering
 - Converted categorical variables into numerical format  
 - Encoded target variable (Churn → 0/1)  
 
 ---
 
-### 🔹 Data Transformation
+### 🔹 4. Data Transformation
 - Applied **StandardScaler** for numerical features  
 - Applied **OneHotEncoder** for categorical features  
 
 ---
 
-### 🔹 Pipeline Creation
+### 🔹 5. Pipeline Creation
 - Built preprocessing pipelines using Scikit-learn  
-- Combined using **ColumnTransformer**  
-- Automated full preprocessing workflow  
+- Combined transformations using ColumnTransformer  
+- Automated entire preprocessing workflow  
 
 ---
 
-### 🔹 Pipeline Execution
+### 🔹 6. Pipeline Execution
 - Fitted pipeline on training data  
 - Transformed training and testing datasets  
 
 ---
 
-### 🔹 Saving Pipeline
+### 🔹 7. Saving Pipeline
 - Saved pipeline using Joblib  
 - Enables reuse for future predictions  
 
@@ -94,6 +104,7 @@ Raw Data → Data Cleaning → Feature Transformation → Pipeline → Processed
 
 ## 📁 Project Structure
 
+
 Task1_Data_Pipeline/
 │── data/
 │ └── churn.csv
@@ -116,30 +127,33 @@ Task1_Data_Pipeline/
 ## ▶️ How to Run
 
 1. Clone the repository:
-   
-    git clone https://github.com/JayaLakshmi-Y23IT008/codtech-data-science-internship.git
 
-3. Navigate to the project:
-   
-   cd codtech-data-science-internship/Task1_Data_Pipeline
+git clone https://github.com/JayaLakshmi-Y23IT008/codtech-data-science-internship.git
 
-4. Install dependencies:
 
-   pip install -r requirements.txt
+2. Navigate to the folder:
+
+cd codtech-data-science-internship/Task1_Data_Pipeline
+
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
 
 4. Run the notebook:
 
-   jupyter notebook notebook/data_pipeline.ipynb
+jupyter notebook notebook/data_pipeline.ipynb
 
 
-5. Execute all cells to generate outputs.
+5. Execute all cells to generate results.
 
 ---
 
 ## 🎓 Key Learning
 
-- Data cleaning and preprocessing techniques  
-- Handling missing and inconsistent data  
+- Data preprocessing techniques  
+- Handling real-world datasets  
 - Feature transformation and encoding  
 - Building reusable pipelines  
 - Preparing data for machine learning  
@@ -147,7 +161,7 @@ Task1_Data_Pipeline/
 ---
 
 ## 🏁 Conclusion
-This project highlights the importance of data preprocessing in the data science workflow.  
+This project highlights the importance of preprocessing in data science workflows.  
 A well-designed pipeline improves efficiency, ensures consistency, and simplifies future model development.
 
 ---
