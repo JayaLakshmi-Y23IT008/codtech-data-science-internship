@@ -1,8 +1,14 @@
 # 📊 Task 1: Data Pipeline Development
 
 ## 🚀 Overview
-This project focuses on building an automated data preprocessing pipeline for customer churn analysis.  
-The pipeline transforms raw, inconsistent data into a structured format suitable for machine learning.
+
+ **End-to-end data preprocessing pipeline to transform raw customer churn data into a machine learning-ready format using Scikit-learn.**
+
+---
+
+## 🎯 Why This Project Matters
+In real-world applications, raw data is often incomplete, inconsistent, and not suitable for machine learning models.  
+This project solves that problem by building an automated pipeline that ensures clean, structured, and reusable data processing.
 
 ---
 
