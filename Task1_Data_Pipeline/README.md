@@ -1,8 +1,7 @@
+
 # 📊 Task 1: Data Pipeline Development
 
-## 🚀 Overview
-
- **End-to-end data preprocessing pipeline to transform raw customer churn data into a machine learning-ready format using Scikit-learn.**
+🚀 **End-to-end data preprocessing pipeline that converts raw customer churn data into a machine learning-ready format using Scikit-learn.**
 
 ---
 
