@@ -128,22 +128,22 @@ Task1_Data_Pipeline/
 
 1. Clone the repository:
 
-git clone https://github.com/JayaLakshmi-Y23IT008/codtech-data-science-internship.git
+    git clone https://github.com/JayaLakshmi-Y23IT008/codtech-data-science-internship.git
 
 
 2. Navigate to the folder:
 
-cd codtech-data-science-internship/Task1_Data_Pipeline
+   cd codtech-data-science-internship/Task1_Data_Pipeline
 
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 4. Run the notebook:
 
-jupyter notebook notebook/data_pipeline.ipynb
+   jupyter notebook notebook/data_pipeline.ipynb
 
 
 5. Execute all cells to generate results.
