@@ -7,7 +7,7 @@
 # 🎯 Objective
 
 To maximize company profit using optimization techniques under resource constraints.
-
+ 
 ---
 
 # 📊 Problem Statement
